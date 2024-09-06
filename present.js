@@ -1,5 +1,5 @@
 
-var to = 'Khánh!';
+var to = 'Hồng Hạnh!';
 var gift_url = 'https://www.pinterest.com/pin/14003448834600908/';
 var gift_image_url = 'Happy Birthday Pusheen Pin On Pinterest 👑👑👑.jpeg';
 
