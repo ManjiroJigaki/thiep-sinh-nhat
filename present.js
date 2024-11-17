@@ -1,5 +1,5 @@
 
-var to = 'Tôn Long Khoa' ;
+var to = 'Nguyễn Đỗ Cẩm Giang' ;
 var gift_url = 'https://www.pinterest.com/pin/14003448834600908/';
 var gift_image_url = 'Happy Birthday Pusheen Pin On Pinterest 👑👑👑.jpeg';
 
