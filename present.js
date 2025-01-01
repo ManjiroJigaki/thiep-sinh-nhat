@@ -11,7 +11,7 @@ var presentImage = document.getElementById("present-image");
 <style>
  #card {
   width: 300px; /* Đặt chiều rộng cố định hoặc theo ý bạn */
-  height: auto; /* Để chiều cao tự động điều chỉnh */
+  height: 200px; /* Để chiều cao tự động điều chỉnh */
   background-color: white; /* Màu nền */
   padding: 10px; /* Khoảng cách giữa nội dung và viền */
   text-align: center; /* Canh giữa chữ */
