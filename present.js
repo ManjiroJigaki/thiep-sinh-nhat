@@ -9,19 +9,34 @@ var nametag = document.getElementById("nametag");
 var present = document.getElementById("present");
 var presentImage = document.getElementById("present-image");
 <style>
- #card {
-  width: 300px; /* Đặt chiều rộng cố định hoặc theo ý bạn */
-  height: 200px; /* Để chiều cao tự động điều chỉnh */
-  background-color: white; /* Màu nền */
-  padding: 10px; /* Khoảng cách giữa nội dung và viền */
-  text-align: center; /* Canh giữa chữ */
-  border: 2px solid red; /* Viền (tùy chỉnh nếu cần) */
-  border-radius: 10px; /* Bo tròn góc */
-  word-wrap: break-word; /* Để chữ tự xuống dòng khi quá dài */
-  overflow: hidden; /* Ẩn phần chữ bị tràn (nếu có) */
-  font-size: 16px; /* Cỡ chữ */
-}
+  #card {
+    width: 300px; /* Đặt chiều rộng hộp */
+    height: auto; /* Tự động điều chỉnh chiều cao */
+    background-color: white; /* Nền trắng */
+    padding: 10px; /* Khoảng cách nội dung với viền */
+    text-align: center; /* Canh giữa chữ */
+    border: 2px solid red; /* Viền đỏ */
+    border-radius: 10px; /* Bo tròn góc hộp */
+    word-wrap: break-word; /* Tự động xuống dòng nếu chữ quá dài */
+    overflow: hidden; /* Ẩn phần chữ bị tràn */
+    font-size: 16px; /* Cỡ chữ */
+    position: absolute; /* Canh giữa màn hình */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none; /* Ban đầu ẩn hộp */
+  }
+
+  .card-show {
+    display: block; /* Hiển thị hộp khi class được thêm */
+  }
+
+  #nametag {
+    font-size: 20px; /* Tùy chỉnh kích thước chữ tên */
+    font-weight: bold;
+  }
 </style>
+
 
 
 function init() {
